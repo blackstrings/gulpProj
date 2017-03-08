@@ -4,9 +4,10 @@
 
 var Sword = require('./Sword');
 
+
 var Hero = function(name){
 	this.name = name;
-	this.swold = new Sword();
+	this.sword = new Sword("Metal Sword");
 };
 
 Hero.prototype.getSword = function(){

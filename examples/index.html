@@ -7,11 +7,26 @@
 	</head>
 	<body>
 
-		<script src="../dist/myindex.js"></script>
+		<script src="../src/bundle.js"></script>
 		<div>
 		<h1>Welcome To My Gulp Project</h1>
 		<p>With pure es5, using gulp will auto order can concatenating your files base off of their dependencies. If you have circular dependencies, then you'll need a more advance setup.</p>
+		<p>To run gulp, just do</p>
+		<pre>
+gulp
+//or
+gulp default
+		</pre>
 		</div>
+
+		<div>
+			<p>As for making one bundle.js to be run in a browser, you'll want to use browserify. You almost dont need gulp if you wanted to as you can just do </p>
+			<pre>
+browserify index.js > bundle.js
+			</pre>
+		</div>
+
+		<div id="info"></div>
 
 	</body>
 </html>
