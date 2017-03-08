@@ -3,6 +3,7 @@ basic javascript gulp. It requires that you have gulp installed gloabally
 
 ## Installation
 - git clone <this repo>
+- Install nodejs
 - npm install -g gulp
 - npm install
 
