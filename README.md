@@ -6,7 +6,10 @@ basic javascript gulp. It requires that you have gulp installed gloabally
 - npm install -g gulp
 - npm install
 
-## To Transpile
+## To Build and start watchify
 - gulp
 or
 - gulp default
+
+## Notes
+- thanks to Travis Maynard's [tutorial](https://travismaynard.com/writing/getting-started-with-gulp)
