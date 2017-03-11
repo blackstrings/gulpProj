@@ -7,7 +7,7 @@
 	</head>
 	<body>
 
-		<script src="../src/bundle.js"></script>
+		
 		<div>
 		<h1>Welcome To My Gulp Project</h1>
 		<p>With pure es5, using gulp will auto order can concatenating your files base off of their dependencies. If you have circular dependencies, then you'll need a more advance setup.</p>
@@ -22,11 +22,16 @@ gulp default
 		<div>
 			<p>As for making one bundle.js to be run in a browser, you'll want to use browserify. You almost dont need gulp if you wanted to as you can just do </p>
 			<pre>
+npm install -g browserify
 browserify index.js > bundle.js
 			</pre>
+			<button id="btn1">Button 1</button>
 		</div>
 
 		<div id="info"></div>
 
+		<div id="container"></div>
+
+		<script src="../build/js/index.js"></script>
 	</body>
 </html>
